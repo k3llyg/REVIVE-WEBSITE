@@ -41,13 +41,29 @@ p {
   margin: 0;
 }
 
-/* Tags (e.g. time, skill level) */
+/* Tags*/
 .project-meta .tag,
 .project-meta .time {
   font-family: 'VIC', sans-serif;
   font-size: 14pt;
   font-weight: 700;
 }
+
+.black-tag {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 26px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: 'Sora', sans-serif;
+  font-weight: 700;
+  background: var(--BLACK); /* You already have this color set */
+  color: var(--WHITE); /* Ensure readability */
+  margin-right: 4px;
+}
+
 
 /* ==========================
    COMPONENT STYLES
