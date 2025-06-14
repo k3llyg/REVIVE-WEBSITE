@@ -1,0 +1,66 @@
+{
+  "blocks": [
+    {
+      "type": "hero",
+      "title": "Pomodoro",
+      "subtitle": "",
+      "image": "img/Card 3.png",
+      "class": "hero-split dark-hero",
+      "layout": "split",
+      "tags": [
+        { "label": "1h", "style": "white-tag" },
+        { "label": "Beginner", "style": "white-tag" },
+        { "label": "A simple timer tool to help you focus. Build your own Pomodoro timer using 3D printed parts.", "style": "description-label" },
+        { "label": "You Will Learn", "style": "section-label" },
+        { "label": "3D PRINTING", "style": "tag" },
+        { "label": "Productivity Tools", "style": "tag" }
+      ]
+    },
+    {
+      "type": "cardgroup",
+      "heading": "Timer App & STL",
+      "cards": [
+        {
+          "title": "Focus Timer",
+          "image": "img/pomodoro-app.png",
+          "buttons": [
+            {
+              "label": "Exocus",
+              "link": "https://byland.work/exocus"
+            },
+            {
+              "label": "Forest",
+              "link": "https://www.forestapp.cc/"
+            }
+          ]
+        },
+        {
+      "title": "3D Models",
+      "image": "img/phone-stand.png",
+      "buttons": [
+        {
+          "label": "Thingiverse",
+          "link": "https://www.thingiverse.com/thing:7056937"
+        },
+        {
+          "label": "MakerWorld",
+          "link": "https://makerworld.com/en/models/1501238"
+        }
+      ]
+    }
+      ]
+    },
+    {
+      "type": "instructionCarousel",
+      "heading": "Instructions",
+      "images": [
+        "img/instruction-beginner1.jpg",
+        "img/instruction-beginner2.jpg",
+        "img/instruction-beginner3.jpg",
+        "img/instruction-beginner4.jpg",
+        "img/instruction-beginner5.jpg",
+        "img/instruction-beginner6.jpg"
+      ]
+    }
+  ]
+}

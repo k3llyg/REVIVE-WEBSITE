@@ -4,6 +4,56 @@ document.addEventListener('DOMContentLoaded', () => {
     .then(data => renderCMSBlocks(data.blocks));
 });
 
+const contentFile = document.body.dataset.content || 'cms-content.json';
+
+fetch(contentFile)
+  .then(res => res.json())
+  .then(data => {
+    renderProjectCards(data.projects); // Assuming data.projects is an array of project objects
+  });
+
+const params = new URLSearchParams(window.location.search);
+const projectFile = params.get('project') || 'default.json';
+
+fetch(projectFile)
+  .then(res => res.json())
+  .then(data => {
+    renderCMSBlocks(data.blocks); // or your render function
+  });
+
+
+fetch('cms-content.json')
+  .then(res => res.json())
+  .then(data => {
+    const grid = document.getElementById('project-grid');
+    grid.innerHTML = ''; // Clear existing inner HTML
+
+    data.projects.forEach(project => {
+      const link = document.createElement('a');
+      link.href = `cms.html?project=${project.slug}.json`;
+      link.className = 'project-card';
+      link.style.textDecoration = 'none';
+      link.style.color = 'inherit';
+
+      link.innerHTML = `
+        <div class="project-image">
+          <img src="${project.image}" alt="${project.title}" />
+        </div>
+        <div class="project-info">
+          <h3>${project.title}</h3>
+          <div class="project-meta">
+            <span class="time">${project.time}</span>
+            ${project.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
+          </div>
+          <p>${project.description}</p>
+        </div>
+      `;
+
+      grid.appendChild(link);
+    });
+  })
+  .catch(error => console.error('Error loading JSON:', error));
+
 
 function renderCMSBlocks(blocks) {
   const container = document.getElementById('cms-content');

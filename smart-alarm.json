@@ -1,0 +1,74 @@
+{
+  "blocks": [
+  {
+  "type": "hero",
+  "title": "Smart Alarm Clock",
+  "subtitle": "",
+  "image": "img/Card 1.png",
+  "class": "hero-split dark-hero",
+  "layout": "split",
+  "tags": [
+    { "label": "1h", "style": "white-tag" },
+    { "label": "Intermediate", "style": "white-tag" },
+
+    { "label": "Give your old phone a new purpose as a smart alarm. Customize the clock’s looks and 3D-printed add-ons fit your style.", "style": "description-label" },
+
+    { "label": "You Will Learn", "style": "section-label" },
+    { "label": "3D PRINTING", "style": "tag" },
+    { "label": "3D MODELLING", "style": "tag" },
+    { "label": "OpenSCAD", "style": "tag" },
+    { "label": "Autodesk Fusion", "style": "tag" }
+  ]
+},
+ {
+  "type": "cardgroup",
+  "heading": "APP & STL",
+  "cards": [
+    {
+      "title": "Clock Apps",
+      "image": "img/flipqo.png",
+      "buttons": [
+        {
+          "label": "IOS",
+          "link": "https://fliqlo.com/"
+        },
+        {
+          "label": "Andriod",
+          "link": "https://fliqlo.com/#screensaver"
+        }
+      ]
+    },
+    {
+      "title": "3D Models",
+      "image": "img/white clock.png",
+      "buttons": [
+        {
+          "label": "Thingiverse",
+          "link": "https://www.thingiverse.com/thing:7021612"
+        },
+        {
+          "label": "MakerWorld",
+          "link": "https://www.thingiverse.com/download:9876543"
+        }
+      ]
+    }
+  ],
+  "class": "rec-grid-blue"
+},
+   {
+  "type": "instructionCarousel",
+  "heading": "Instructions",
+  "images": [
+    "img/instruction1.jpg",
+    "img/instruction2.jpg",
+    "img/instruction3.jpg",
+    "img/instruction4.jpg",
+    "img/instruction5.jpg",
+    "img/instruction6.jpg",
+    "img/instruction7.jpg",
+    "img/instruction8.jpg",
+    "img/instruction9.jpg"
+  ]
+}
+  ]
+} 
