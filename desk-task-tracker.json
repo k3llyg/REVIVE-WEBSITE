@@ -8,17 +8,16 @@
       "class": "hero-split dark-hero",
       "layout": "split",
       "tags": [
-        { "label": "1h", "style": "white-tag" },
+        { "label": "2h", "style": "white-tag" },
         { "label": "Beginner", "style": "white-tag" },
         { "label": "A simple timer tool to help you focus. Build your own Pomodoro timer using 3D printed parts.", "style": "description-label" },
         { "label": "You Will Learn", "style": "section-label" },
-        { "label": "3D PRINTING", "style": "tag" },
-        { "label": "Productivity Tools", "style": "tag" }
+        { "label": "3D PRINTING", "style": "tag" }
       ]
     },
     {
       "type": "cardgroup",
-      "heading": "Timer App & STL",
+      "heading": "App & STL",
       "cards": [
         {
           "title": "Focus Timer",
