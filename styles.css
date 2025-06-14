@@ -345,6 +345,14 @@ footer {
   background: transparent;
 }
 
+@media (max-width: 600px) {
+  .hero p {
+    font-size: 15px;
+    line-height: 1;
+  }
+}
+
+
 .cta-btn {
   background: var(--BLACK);
   color: var(--WHITE);
