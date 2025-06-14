@@ -542,6 +542,13 @@ footer {
   color: inherit;
 }
 
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+
 .project-card > a {
   display: flex;
   flex-direction: column;
