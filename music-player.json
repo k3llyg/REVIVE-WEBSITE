@@ -2,7 +2,7 @@
   "blocks": [
   {
   "type": "hero",
-  "title": "Smart Alarm Clock",
+  "title": "Music Player",
   "subtitle": "",
   "image": "img/Card 4.png",
   "class": "hero-split dark-hero",
@@ -11,7 +11,7 @@
     { "label": "3h", "style": "white-tag" },
     { "label": "Intermediate", "style": "white-tag" },
 
-    { "label": "Give your old phone a new purpose as a smart alarm. Customize the clock’s looks and 3D-printed add-ons fit your style.", "style": "description-label" },
+    { "label": "Turn your phone into a nostalgic cassette player using a snap-fit 3D case. Perfect for playlists and personality.", "style": "description-label" },
 
     { "label": "You Will Learn", "style": "section-label" },
     { "label": "3D PRINTING", "style": "tag" },
