@@ -550,6 +550,33 @@ footer {
   margin: 0;
 }
 
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  max-width: 350px; /* Match your .project-card width */
+}
+
+.project-card-link .project-card {
+  width: 100%;
+}
+
+
+@media (max-width: 900px) {
+  .project-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-card,
+  .project-card-link {
+    width: 90vw;
+    max-width: 400px;
+  }
+}
+
+
 
 /* cms styles */
 
@@ -792,3 +819,16 @@ footer {
   color: var(--WHITE);
 }
 
+@media (max-width: 600px) {
+  footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 24px;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
